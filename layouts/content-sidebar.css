@@ -1,0 +1,167 @@
+/*
+Theme Name: muestra0
+Layout: Content-Sidebar
+*/
+
+.site-content {
+    padding-bottom: 4em;
+    background: #b2b2b2 url('../images/pattern.svg') repeat;
+}
+
+.single .site-content,
+.page .site-content,
+.search-content {
+    background: #fff;
+}
+
+div.search-content {
+    padding: 1em 4em 2em;
+}
+
+.site-content .widget-area {
+	width: 380px;
+        float: right;
+	padding: 4em;
+        background: #fff;
+}
+
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+
+.entry-header,
+.entry-content,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation,
+.page-header,
+.page-content,
+.search-content,
+.post-nav-box {
+    position: relative;
+    max-width: 780px;
+    max-width: 48.75rem;
+    padding: 0 4em;
+    margin: 0 auto;
+}
+
+.search-content .entry-header,
+.search-content .continue-reading {
+    margin-left: -4em;
+}
+
+.index-box {
+    max-width: 780px;
+    max-width: 48.75rem;
+    padding: 1em 0 2em;
+    margin: 0 auto 2em;
+    background: #fff;
+}
+
+.index-box blockquote.alignleft,
+.index-box blockquote.alignright {
+    background: #fff;
+    border: none;
+}
+
+@media screen and (min-width:113.75em) {
+    
+    .index-box blockquote.alignright {
+        padding-right: 2em;
+    }
+}
+
+@media screen and (min-width:82.5em) {
+    
+    .index-box blockquote.alignleft {
+        padding-left: 2em;
+    }
+    
+}
+
+@media screen and (min-width:96.25em) {
+    
+    .content-area {
+        float: left;
+        width: 100%;
+        margin-right: -380px;
+        padding-right: 380px;
+    }
+    
+}
+
+@media screen and (min-width:72.5em) and (max-width:96.18em) {
+    
+    .content-area {
+        float: left;
+        width: 100%;
+        margin-left: -380px;
+        padding-left: 380px;
+    }
+    
+    .entry-header,
+    .entry-content,
+    .entry-footer,
+    .tag-links,
+    .post-navigation,
+    .comments-area,
+    .paging-navigation,
+    .index-box,
+    .page-header,
+    .search-content,
+    .post-nav-box {
+        margin-right: 0;
+    }
+    
+    
+}
+
+@media screen and (max-width:72.4375em) {
+    
+    .site-content .widget-area {
+	width: auto;
+        max-width: 780px;
+        float: none;
+        margin: 1em auto 0;
+    }
+    
+}
+
+@media screen and (max-width:42.5em) {
+    
+}
+
+@media screen and (max-width:30em) {
+    
+    .entry-header,
+    .entry-content,
+    .entry-footer,
+    .tag-links,
+    .post-navigation,
+    .comments-area,
+    .paging-navigation,
+    .page-header,
+    .page-content,
+    .search-content,
+    .post-nav-box {
+        padding: 0 1em;
+        
+    }
+    
+    .post-nav-box {
+        padding: 0 2em;
+    }
+        
+}
+
+.page-header,
+.paging-navigation {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    list-style-type: none;
+    background: #fff;
+}
