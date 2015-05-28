@@ -7,6 +7,7 @@ Layout: Masonry-index
     margin: 1em;
 }
 
+
 .site-content {
     padding-bottom: 4em;
     background: #b2b2b2 url('../images/pattern.svg') repeat;
@@ -116,5 +117,28 @@ Layout: Masonry-index
         float: none;
         margin: 1em auto 0;
     }
+    
+}
+
+@media screen and (max-width:30em) {
+    
+    .post {
+        margin: 1em .5em;
+    }
+    
+    .entry-header,
+    .entry-content,
+    .entry-footer,
+    .tag-links,
+    .post-navigation,
+    .comments-area,
+    .paging-navigation,
+    .page-header,
+    .page-content,
+    .search-content,
+    .post-nav-box {
+        padding: 0 1em;
+    }
+
     
 }
