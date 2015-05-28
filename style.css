@@ -1481,6 +1481,7 @@ input[type="search"] {
     
     .single .entry-meta {
         width: 120px;
+        height: 0;
         margin-left: -160px;
         float: left;
         text-align: right;
