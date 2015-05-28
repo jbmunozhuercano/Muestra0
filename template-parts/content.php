@@ -25,7 +25,7 @@
             }
             ?>
             <?php
-            $category_list = get_the_category_list( __(', ', 'muestra0') );
+            $category_list = get_the_category_list( esc_html__(', ', 'muestra0') );
             
             if (muestra0_categorized_blog() ) {
                 echo '<div class="category-list">' . $category_list . "</div>";
