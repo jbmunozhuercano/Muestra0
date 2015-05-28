@@ -160,11 +160,6 @@ add_action( 'wp_enqueue_scripts', 'muestra0_scripts' );
 require get_template_directory() . '/inc/custom-header.php';
 
 /**
- * Implement the Custom Logo feature.
- */
-require get_template_directory() . '/inc/custom-logo.php';
-
-/**
  * Custom template tags for this theme.
  */
 require get_template_directory() . '/inc/template-tags.php';
