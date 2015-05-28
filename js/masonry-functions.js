@@ -4,17 +4,38 @@
  * and open the template in the editor.
  */
 
-/* Masonry conf */
-jQuery(document).ready(function($){
-    var $container = $('#main');
+jQuery(document).ready(function($) {
     
-    $container.imagesLoaded(function(){
-        $container.masonry({
-            itemSelector : '.post',
-            isFitWidth: true,
-            isAnimated: true
-        });
+    /* Masonry settings to organize footer widgets */
+    var $container = $('#main');
+    var $masonryOn;
+    
+    if ( $(document).width() > 879 ) {
+        $masonrOn = true;
+        runMasonry();
+    }
+    
+    $(window).resize( function () {
+        if( $(document).width() < 879 ) {
+            if ( $masonryOn ) {
+                $container.masonry('destroy');
+                $masonryOn = false;
+            } else {
+                $masonryOn = true;
+                runMasonry();
+            }
+        }
     });
-            
+    
+    function runMasonry() {
+        $container.imagesLoaded(function(){
+            $container.masonry({
+                itemSelector: '.post',
+                isFitWidth: true,
+                isAnimated: true
+            });
+        });
+    }
+        
 });
 
