@@ -1013,34 +1013,59 @@ a:hover.page-numbers {
     -webkit-background-size: cover!important;
 }
 
+.header-background-image .title-box {
+    background: #333;
+    background: rgba(0,0,0,0.5);
+}
+
 .site-branding {
-    padding: 0 4em;
-    text-align: left;
+    padding: 2em 0;
+    text-align: center;
     background: #035d8d;
 }
 
+.title-box {
+    width: 600px;
+    max-width: 75%;
+    padding: .5em 1em;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
 .site-title {
-    font-weight: 400;
-    font-size: 32px;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: 40px;
+    font-size: 2.5rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     line-height: normal;
-    padding-top: 20px;
-    margin: 0 0 10px 0;
+    padding-bottom: 0;
 }
 
 .site-description {
     font-weight: 100;
-    font-size: 19px;
-    font-size: 1.2rem;
-    padding-bottom: 20px;
-    margin: 0;
+    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .site-title a,
 .site-description {
     color: #fff;    
+}
+
+@media screen and (max-width:600px) {
+    
+    .site-branding {
+        padding: 0;
+    }
+    
+    .title-box {
+        max-width: 100%;
+        margin: 0;
+        padding: 2em;
+        border: none;
+    }
+    
 }
 
 /* Header search */

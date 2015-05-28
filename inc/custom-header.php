@@ -26,8 +26,8 @@ function muestra0_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'muestra0_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => 'ffffff',
-		'width'                  => 1920,
-		'height'                 => 125,
+		'width'                  => 1280,
+		'height'                 => 250,
 		'flex-height'            => false,
 		'wp-head-callback'       => 'muestra0_header_style',
 		'admin-head-callback'    => 'muestra0_admin_header_style',
