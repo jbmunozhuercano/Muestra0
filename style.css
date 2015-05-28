@@ -1053,7 +1053,7 @@ a:hover.page-numbers {
     color: #fff;    
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:37.5em) {
     
     .site-branding {
         padding: 0;
@@ -1078,17 +1078,6 @@ a:hover.page-numbers {
     cursor: pointer;
     margin-right: 10px;
 }
-
-/*.search-toggle {
-    float: right;
-    height: 38px;
-    width: 50px;
-    padding: 7px;
-    margin-right: 10px;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-}*/
 
 .search-toggle:hover,
 .search-toggle.active {
