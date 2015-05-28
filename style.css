@@ -582,7 +582,7 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-        padding: 9px 1em;
+        padding: 9px 1em 10px;
         font-size: 14px;
         font-size: 0.875rem;
         line-height: 1.3em;
@@ -1536,6 +1536,10 @@ blockquote.alignright {
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
+.logged-in-as a {
+    font-weight: 800;
+}
+
 .comments-title {
     font-weight: 800;
     font-size: 32px;
@@ -1676,6 +1680,9 @@ ol.children {
 /*--------------------------------------------------------------
 # Index and Archive
 --------------------------------------------------------------*/
+.category-list {
+    word-wrap: break-word;
+}
 
 .continue-reading {
     margin: 0 4rem;
