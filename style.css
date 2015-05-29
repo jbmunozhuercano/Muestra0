@@ -1906,7 +1906,7 @@ object {
 @media screen and (min-width:113.75em) {
     
     .image-shifter {
-        width: 1060px;
+        width: 1024px;
         float: none;
         margin: 0 auto;
     }
@@ -1924,7 +1924,7 @@ object {
 @media screen and (min-width:90em) and (max-width:96.1875em) {
     
     .image-shifter {
-        width: 1060px;
+        width: 1024px;
         float: right;
     }
     
