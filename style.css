@@ -1176,6 +1176,7 @@ input[type="search"] {
     margin-left: 1.5em;
 }
 
+.widget .textwidget li:before,
 .widget_recent_entries li:before,
 .widget_recent_comments li:before,
 .widget_archive li:before,
@@ -1189,11 +1190,16 @@ input[type="search"] {
     font-size: 0.875rem;     
 }
 
+.widget .textwidget li,
 .widget_recent_entries li,
 .widget_recent_comments li,
 .widget_archive li,
 .widget_categories li {
     margin: 0 0 .5em 2.5em;
+}
+
+.widget .textwidget li:before {
+    content: "\f1db";
 }
 
 .widget_recent_entries li:before {
