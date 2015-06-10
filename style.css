@@ -1555,14 +1555,12 @@ blockquote cite {
 blockquote.alignleft {
     width: 50%;
     float: left;
-    padding: 1em 0 0;
     margin-right: 2em;
 }
 
 blockquote.alignright {
     width: 50%;
     float: right;
-    padding: 1em 0 0;
     margin-left: 2em;
 }
 
