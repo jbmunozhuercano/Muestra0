@@ -105,8 +105,12 @@ div.search-content {
     
     .site-content .widget-area {
 	width: auto;
-        max-width: 380px;
+        max-width: 780px;
         float: none;
+        margin: 1em auto 0;
+    }
+    
+    .index-box {
         margin: 1em auto 0;
     }
     
