@@ -1826,6 +1826,7 @@ object {
 --------------------------------------------------------------*/
 .gallery {
 	margin-bottom: 1.5em;
+        min-height: 200px;
 }
 
 .gallery-item {
