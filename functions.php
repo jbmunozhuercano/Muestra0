@@ -16,7 +16,7 @@ if ( ! function_exists( 'muestra0_setup' ) ) :
 function muestra0_setup() {
     
         /* This theme styles the visual editor to resemble the theme style */
-        $font_url = 'http://fonts.googleapis.com/css?family=Comfortaa:400,300,700|Raleway:500,700,800,400';
+        $font_url = 'http://fonts.googleapis.com/css?family=Lato:400,300,700|Raleway:500,700,800,400';
         add_editor_style( array('inc/editor-style.css', str_replace( ', ', '%2c', $font_url ) ) );
 	
         /*
@@ -138,7 +138,7 @@ function muestra0_scripts() {
             }
         }
         
-        wp_enqueue_style('muestra0-google-fonts', 'http://fonts.googleapis.com/css?family=Comfortaa:400,300,700|Raleway:500,700,800,400');
+        wp_enqueue_style('muestra0-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:400,300,700|Raleway:500,700,800,400');
         
         wp_enqueue_style('muestra0-fontawesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
         
